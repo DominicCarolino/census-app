@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+   
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+   
+
+
+    <title>My app</title>
+</head>
+
+<body bgcolor = "blue">
+    <div class="app">
+        <h1><center>Population Census App</center></h1>
+
+
+
+<center>
+<table align="center">
+<thead>
+<tr>
+<th>
+<center><a href = "born.html"><input type = "button" id = "born_button" style = "font-size:30px" value = "Born"></a></th></tr><tr></center><br>
+<th>
+<center><a href = "death.html"><input type = "button" id = "death_button" style = "font-size:30px" value = "Death"></a></th></tr><tr></center><br>
+<th>
+<center><a href = "migrant.html"><input type = "button" id = "migrant_button" style = "font-size:30px" value = "Migrant"></a></th></tr><tr></center><br>
+
+</tr>
+</thead></table>
+
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
